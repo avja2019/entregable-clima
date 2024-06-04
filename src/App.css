@@ -1,0 +1,42 @@
+
+
+/* ---- Reset -----*/
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+}
+.button {
+  border: none;
+}
+/* -----app ----*/
+.app {
+  background-image: url('https://cdn.pixabay.com/animation/2022/11/23/14/29/14-29-43-264_512.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
